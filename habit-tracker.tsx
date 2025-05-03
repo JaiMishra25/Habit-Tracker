@@ -438,7 +438,7 @@ export default function HabitTracker() {
           }}
           className="text-5xl mb-4 inline-block"
         >
-          📊
+          <img src="/logo.svg" alt="HabitSync Logo" className="w-20 h-20 mx-auto" />
         </motion.div>
         <motion.h2
           animate={{
@@ -477,9 +477,9 @@ export default function HabitTracker() {
             initial={{ rotate: 0 }}
             animate={{ rotate: 360 }}
             transition={{ duration: 2, repeat: 0 }}
-            className="mr-2 text-2xl"
+             className="mr-2 inline-block"
           >
-            📊
+           <img src="/logo.svg" alt="HabitSync Logo" className="w-10 h-10" />
           </motion.div>
           <motion.h1 className={`text-xl font-bold ${nightMode ? "text-blue-300" : ""}`}>HabitSync</motion.h1>
         </motion.div>
