@@ -1,6 +1,6 @@
 # HabitSync - Personal Analytics & Habit Tracker
 
-![HabitSync Logo](./public/screenshots/logo.png)
+![HabitSync Logo](./public/logo.png)
 
 ## 📋 Overview
 
